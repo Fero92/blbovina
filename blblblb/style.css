@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 100vh;
+  background-color: #C19A6B;
+}
+.header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  padding: 35px;
+}
+.header a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: bold;
+}
+
+.article {
+  height: 100vh;
+  background-color: #8B0000;
+  margin: 0 auto;
+}
+
+.cards {
+  display: inline-block;
+  margin: auto;
+  height: 350px;
+  width: 75px;
+  background-color: violet;
+}
+.cards .card {
+  background-color: violet;
+  display: inline-block;
+  height: 400px;
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.images {
+  height: 100vh;
+  background-color: #483C32;
+}
+
+.footer {
+  height: 100vh;
+  background-color: rgb(104, 146, 5);
+}
+
+.contact {
+  height: 100vh;
+  background-color: rgba(6, 125, 155, 0.377);
+}/*# sourceMappingURL=style.css.map */
